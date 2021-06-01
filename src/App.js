@@ -130,13 +130,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Click to add event to Google Calendar</p>
-        <p style={{ fontSize: 18 }}>
-          Uncomment the get events code to get events
-        </p>
-        <p style={{ fontSize: 18 }}>
-          Don't forget to add your Client Id and Api key
-        </p>
         <button style={{ width: 100, height: 50 }} onClick={addEvent}>
           Add Event
         </button>
